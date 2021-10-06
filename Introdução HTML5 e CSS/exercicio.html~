@@ -32,13 +32,7 @@
 <p>Me envie um e-mail <a href="mailto:rodrigossaunders@gmail.com">clicando aqui!</a></p>
 </article>
 </section>
-
-<footer>
-<ul>
-<li><a href="https://github.com/rodrigossaunders">GitHub de Rodrigo</a></li>
-<li><a href="https://linkedin.com/rodrigossaunders">LinkedIn de Rodrigo</a></li>
-</ul>
-</footer>
+<footer></footer>
 </body>
 
 </html>
