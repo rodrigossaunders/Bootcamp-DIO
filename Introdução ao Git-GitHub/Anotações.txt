@@ -1,0 +1,15 @@
+Principais Comandos:
+git init
+git add/rm <file>
+git add/rm .
+git commit -m "Descrição"
+
+git config --global user.name "PrimeiroNome Sobrenome"
+git config --global user.email "meuemail@exemplo.com"
+
+git remote add origin https://githuburl...git
+git remote -v
+
+Softwares utilizados:
+Git Bash
+Typora (Editor Markdown)
