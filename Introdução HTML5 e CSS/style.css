@@ -1,0 +1,80 @@
+body {
+background-color: #bababa;
+margin: 0;
+font-family: verdana;
+}
+
+.banner {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.logo {
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px #00000060;
+	margin: 5px;
+}
+.logotitle {
+padding: 5px;
+}
+.pagetitle {
+margin-top: 30px;
+text-align: center;
+}
+.post {
+margin: auto auto;
+background-color: #ffffff80;
+padding: 15px;
+border-width: 2px;
+border-style: solid;
+border-color: #505050;
+margin-bottom: 15px;
+border-radius: 9px;
+max-width: 960px;
+}
+
+.tituloDoPost {
+margin: 0;
+margin-bottom: 15px;
+
+}
+
+.corpoDoPost {
+margin: 0;
+margin-top: 15px;
+}
+
+.imgPost {
+width: 100%;
+border-radius: 9px;
+}
+
+.detalhes {
+font-size: 11px;
+margin: 5px;
+}
+
+
+.rodape {
+padding: 2px;
+background-color: #00000060;
+text-align: center;
+}
+a {
+color: #000;
+text-decoration: none;
+font-weight: bolder;
+}
+a:hover {
+color: #00000080;
+text-decoration: none;
+font-weight: bolder;
+}
+.rodape ul {
+margin: 5px;
+}
+.rodape ul li {
+list-style-type: none;
+margin-top: 2px;
+}

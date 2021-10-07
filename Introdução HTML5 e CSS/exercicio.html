@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css" />
 <meta charset="UTF-8" />
 <title>Exercício Prático 1</title>
 </head>
 <body>
 <header>
-<img src="./foto-capa.jpg" alt="foto do cabeçalho">
-<h1>Rodrigo Saunders</h1>
+<div class="banner">
+<img class="logo" src="./foto-capa.jpg" alt="foto do cabeçalho">
+<h1 class="logotitle">Rodrigo Saunders</h1>
+</div>
 </header>
 <section>
 <header>
-<h2>Lista de Publicações</h2>
+<h2 class="pagetitle">Lista de Publicações</h2>
 </header>
-<article>
+<article class="post">
 <header>
-<img src="./img-post-1.jpg" alt="Foto post 1">
+<img class="imgPost" src="./img-post-1.jpg" alt="Foto post 1">
 <h3>Publicação 1</h3>
 </header>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p>Escrito por <a href="https://linkedin.com/rodrigossaunders" target="_blank">Rodrigo</a></p>
-<p>Me envie um e-mail <a href="mailto:rodrigossaunders@gmail.com">clicando aqui!</a></p>
+<p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p class="detalhes">Escrito por <a href="https://linkedin.com/rodrigossaunders" target="_blank">Rodrigo</a></p>
+<p class="detalhes">Me envie um e-mail <a href="mailto:rodrigossaunders@gmail.com">clicando aqui!</a></p>
 </article>
-<article>
+<article class="post">
 <header>
-<img src="./img-post-2.jpg" alt="Foto post 2">
+<img class="imgPost" src="./img-post-2.jpg" alt="Foto post 2">
 <h3>Publicação 2</h3>
 </header>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p>Escrito por <a href="https://linkedin.com/rodrigossaunders" target="_blank">Rodrigo</a></p>
-<p>Me envie um e-mail <a href="mailto:rodrigossaunders@gmail.com">clicando aqui!</a></p>
+<div class="corpoDoPost">
+<p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p class="detalhes">Escrito por <a href="https://linkedin.com/rodrigossaunders" target="_blank">Rodrigo</a></p>
+</div>
+<p class="detalhes">Me envie um e-mail <a href="mailto:rodrigossaunders@gmail.com">clicando aqui!</a></p>
+
 </article>
 </section>
 
-<footer>
+<footer class="rodape">
 <ul>
 <li><a href="https://github.com/rodrigossaunders">GitHub de Rodrigo</a></li>
 <li><a href="https://linkedin.com/rodrigossaunders">LinkedIn de Rodrigo</a></li>
