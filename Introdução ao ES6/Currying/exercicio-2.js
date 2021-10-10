@@ -23,5 +23,7 @@ function primeiroGrauCurried(a) {
 console.log(primeiroGrauCurried(6)(2)(10));
 
 const celsiusParaFahrenheit = primeiroGrauCurried(9/5)(32);
+
+
 // converte 30 C para Fahrenheit 
 console.log(celsiusParaFahrenheit(30))
